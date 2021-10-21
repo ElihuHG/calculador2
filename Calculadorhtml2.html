@@ -10,7 +10,7 @@
     <script src = "js/mainC.js"></script>
 </head>
 <body>
-    <h1>Calculadora</h1>
+    <h1>Calculadora 1</h1>
     <label for = "primNum"> Ingresa el primer numero </label>
     <input type= "number" name = "primNum"  id = "primNum" placeholder = "primer numero"><br>
     <br>
@@ -19,30 +19,21 @@
     <input  type= "number" name = "segNum"  id = "segNum" placeholder = "segundo numero">
   
 
-    <form>
-        <br>
-    <label for = "operador" >Selecciona el operador</label>
-    <input  name="operador" id = "operador" list = "operadores">
-    </form>
-    <datalist id="operadores">
-        <option> + </option>
-        <option> - </option>
-        <option> * </option>
-        <option> / </option>
    
-        </datalist>
+        <br>
+        <br>
+
+        
+        <label for = "res"> Ingresa un operador (+ - * /) </label> 
+        <input  type= "text" name = "res1"  id = "res1" placeholder = "operador">
+
         <br>
     
-        <input type="button" value = "calcular" id = "btnCalcular"> 
+        <input type="button" value = "calcular" id = "btnCalcular"> <br>
 
-        <br>
-        <br>
-
-
-        <!-- <label for = "res"> Ingresa el segundo numero </label> 
-        <input  type= "text" name = "res"  id = "res" placeholder = "Aqui va tu resultado"> -->
-
-        <p id = "resultado"></p>
+        
+     
+       <br> <p id = "resultado"></p>
     
     
 </body>
