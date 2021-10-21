@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src = "js/mainC.js"></script>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <label for = "primNum"> Ingresa el primer numero </label>
+    <input type= "number" name = "primNum"  id = "primNum" placeholder = "primer numero"><br>
+    <br>
+
+    <label for = "segNum"> Ingresa el segundo numero </label> 
+    <input  type= "number" name = "segNum"  id = "segNum" placeholder = "segundo numero">
+  
+
+    <form>
+        <br>
+    <label for = "operador" >Selecciona el operador</label>
+    <input  name="operador" id = "operador" list = "operadores">
+    </form>
+    <datalist id="operadores">
+        <option> + </option>
+        <option> - </option>
+        <option> * </option>
+        <option> / </option>
+   
+        </datalist>
+        <br>
+    
+        <input type="button" value = "calcular" id = "btnCalcular"> 
+
+        <br>
+        <br>
+
+
+        <!-- <label for = "res"> Ingresa el segundo numero </label> 
+        <input  type= "text" name = "res"  id = "res" placeholder = "Aqui va tu resultado"> -->
+
+        <p id = "resultado"></p>
+    
+    
+</body>
+</html>
